@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {
   Search,
-} from 'styled-icons/fa-solid';
+} from 'styled-icons/fa-solid/Search';
 
 export const Wrapper = styled.div`
     font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
