@@ -1,16 +1,16 @@
 (function (global, factory) {
     if (typeof define === "function" && define.amd) {
-        define(['exports', 'styled-components', 'styled-icons/fa-solid'], factory);
+        define(['exports', 'styled-components', 'styled-icons/fa-solid/Search'], factory);
     } else if (typeof exports !== "undefined") {
-        factory(exports, require('styled-components'), require('styled-icons/fa-solid'));
+        factory(exports, require('styled-components'), require('styled-icons/fa-solid/Search'));
     } else {
         var mod = {
             exports: {}
         };
-        factory(mod.exports, global.styledComponents, global.faSolid);
+        factory(mod.exports, global.styledComponents, global.Search);
         global.styles = mod.exports;
     }
-})(this, function (exports, _styledComponents, _faSolid) {
+})(this, function (exports, _styledComponents, _Search) {
     'use strict';
 
     Object.defineProperty(exports, "__esModule", {
@@ -41,7 +41,7 @@
         componentId: 's1o8q90i-2'
     })(['position:relative;']);
 
-    var SearchIcon = exports.SearchIcon = (0, _styledComponents2.default)(_faSolid.Search).withConfig({
+    var SearchIcon = exports.SearchIcon = (0, _styledComponents2.default)(_Search.Search).withConfig({
         displayName: 'styles__SearchIcon',
         componentId: 's1o8q90i-3'
     })(['position:absolute;width:15px;height:15px;left:10px;top:12px;']);
